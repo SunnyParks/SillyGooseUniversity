@@ -1,0 +1,188 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+header {
+  background-color: #104424;
+  position: relative;
+  width: 100%;
+  z-index: 10;
+}
+
+
+.line {
+  width: 100%;
+  margin: 0;
+}
+
+.btn-main {
+  background-color: #269751;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  position: relative;
+  top: 20px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav {
+  margin: auto;
+  width: 50%;
+  padding-top: 10px;
+
+
+}
+
+nav img{
+	display: inline-block;
+	height: 10%;
+	width: 10%;
+	transform: rotateY(180deg);
+	position: relative;
+	left: 15px;
+}
+
+nav li {
+  color: #fff;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  display: inline-block;
+  text-transform: uppercase;  
+  padding-left: 25px;
+  top: -20px;
+  position: relative;
+  
+}
+
+main  {
+  text-align: left;
+  position: relative;
+}
+
+main h1 {
+  color: #FFFFFF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 0px;
+  padding-top: 80px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: #104424;
+  position: relative;
+  padding: 20px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center; 
+}
+
+.container img{
+	padding: 10px;
+}
+
+.overlay {
+  position: relative; /* Sit on top of the page content */
+  /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.5); /* Black background with opacity */
+  z-index: 5; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  text-align: center;
+}
+
+.mainImage {
+  background-color: black;
+  height: 500px;
+  background-image: url("https://img.razrisyika.ru/kart/144/1200/575408-y-stary-13.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.MessageBlock1{
+	display: inline-block;
+	width: 40%;
+	margin-left: 50px;
+	float: left;
+}
+
+.ImageBlock1{
+	display: inline-block;
+	position: relative;
+	width: 50%;
+	transform: rotateY(180deg);
+	float: right;
+	height: 350px;
+}
+
+
+.MessageBlock2{
+	display: inline-block;
+	width: 40%;
+	margin-right: 70px;
+	float: right;
+}
+
+.ImageBlock2{
+	display: inline-block;
+	width: 50%;
+	float: left;
+	background: #49CE5E;
+	height: 350px;
+}
+
+.ImageBlock2 img{
+	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	width: 70%;
+}
+
+.FounderMessage{
+  height: 350px;
+}
+
+.WhatIfMessage{
+  height: 350px;
+  text-align: center;
+}
+
+h3{
+  font-family: Constantia, 'Lucida Bright', 'DejaVu Serif', Georgia, 'serif';
+  color: #009A48;
+  font-weight: 600;
+  font-size: 32px;
+  letter-spacing: 1.1px;
+  position: relative;
+}
+
+p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: italic;
+  position: relative;
+}
